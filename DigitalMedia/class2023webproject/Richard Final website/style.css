@@ -1,0 +1,48 @@
+body {
+    background-image: linear-gradient(rgb(0, 19, 187), rgb(0, 11, 49));
+}
+
+
+h2 {font-family: cursive;color:blue; background-color: rgb(73, 73, 202); border-radius: 15px; border-color:cyan; font-size:100px; text-align: center; text-shadow: 5px 10px 5px #100057;}
+
+.Red {background-color:darkblue; font-size: 25px ; color:aqua; text-align: center; text-shadow: 5px 10px 5px #100057; border-radius: 50px;font-family: cursive;}
+
+.Fact1 {font-family: cursive;font-size: 35px; color:rgb(0, 8, 119); text-align: right;border-style: dotted; border-width: 5px; border-color:rgb(0, 24, 104);
+    text-shadow: 2px 5px 5px #14006b;
+    position: relative;
+    left: 1000px;
+    width: 500px;
+    height: 500px;
+    top: 750px;
+
+
+}
+
+
+
+.Fact {font-family: cursive;font-size: 35px; color:rgb(0, 17, 255); text-align: right;border-style: dotted; border-width: 5px; border-color:rgb(0, 60, 255);
+    text-shadow: 2px 5px 5px #2400c2;
+    position: relative;
+    left: 1000px;
+    width: 500px;
+    height: 500px;
+    top:500px;
+
+}
+
+
+
+
+h1 {border-color:rgb(0, 0, 73); border-style: double;text-align: center; font-size:150px; color:rgb(0, 1, 80); text-decoration: underline; text-shadow: 5px 10px 5px #100057; font-family: cursive;}
+
+
+.attribution {color:blue; 
+    background-color: rgb(0, 0, 75); 
+    border-style: outset; 
+    border-top-color: blue; border-left-color: #00008b;
+     border-bottom-color: darkblue; border-right-color: rgb(91, 91, 255);}
+
+    img { border-radius:100px; border-color:aqua; border-style: double; position:relative;
+          }
+
+     hr {color:aquamarine; border-style: double; border-width: 25px; border-radius: 15px;}

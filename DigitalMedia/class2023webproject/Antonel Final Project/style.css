@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-weight: 300px;
+    font-size: 50px;
+    text-align: center;
+    border-style: double;
+    border-width: 5px;
+}
+
+li {
+    text-indent: 160px;
+    font-size: 40px;
+    text-decoration-line: underline;
+    position: relative;
+    top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+img {
+     width: 500px;
+     border-style:solid;
+     border-width: 2px;
+}
+h4 {
+    font-size: large;
+    font-weight: 500px;
+    text-indent: 170px;
+}
+
+p {
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   width: 20%;
+   position: relative;
+   left: 515px;
+   top: -350px;
+   border-style: solid;
+   border-width: 2px;
+}

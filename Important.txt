@@ -1,0 +1,94 @@
+This document contains important portions of HTML, CSS, and JS
+that will be needed to develope on this website. (such as menu
+code and page structures)
+
+Top menu bar HTML:
+<!--Menu-->
+<div id="menu">
+    <div id="WSTELogo">
+        <a href="../index.html">
+            <img id="logo" src="../IndexAssets/Logo/Logo.png">
+        </a>
+    </div>
+    <div id="mButtonContainer">
+        <a href="../IntroToCoding/introToCoding.html">
+            <button id="classButtons">Digital Media</button>
+        </a>
+        <!-- (I need information about these classes before I can add them)
+        <a href="class2.html">
+            <button id="classButtons">Engineering</button>
+        </a>
+        <a href="class3.html">
+            <button id="classButtons">Automotive</button>
+        </a>
+        <a href="class4.html">
+            <button id="classButtons">Construction</button>
+        </a>
+        -->
+    </div>
+</div>
+
+Top menu bar CSS:
+
+/*Menu CSS, will need to be put in css of all html pages*/
+
+#menu{
+    z-index: 100; 
+    box-shadow: 0px 3px 4px;
+    position: fixed;
+    background-color: #11698E;
+    height: 50px;
+    width: 96%;
+    top: 1.5%;
+    left: 2%;
+    border-radius: 10px;
+}
+
+#classButtons{
+    display: inline-block;
+    box-shadow: 0px 0px 3px black;
+    transition-duration: 0.3s;
+    margin-left: 20px;
+    margin-top: 6%;
+    background-color: #F8F1F1;
+    border: none;
+    color: black;
+    border: 2px solid #19456B;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+#classButtons:hover{
+    background-color: #16C79A;
+    color: #F8F1F1;
+}
+
+#mButtonContainer{
+    float: right;
+    margin-right: 20px;
+}
+
+#WSTELogo{
+    display: inline-flex;
+    width: 160px;
+    vertical-align: middle;
+}
+
+#logo{
+    position: absolute;
+    top: 50%; left: 1%;
+    transform: translate(-1%,-50%);
+    width: 120px;
+}
+
+Pannel for home page (only use on index.html unless further set
+up on other pages):
+<div id="pannel">
+    <div id="pannelImageRL">
+        <img class="pannelImage" src="placeholder43.png">
+    </div>
+    <div id="pannelTextRL">
+        <p class="pannelText">This is a pannel and I need a lot more text in here to test if my css actually works, it does indeed turn out that my css does work and that I am an absolute genius, now only if I were smart enough to be able to center the text vertically inside of this div, I guess setting this max width fixes it temporarily.</p>
+    </div>
+</div>
+<br>

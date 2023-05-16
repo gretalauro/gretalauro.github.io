@@ -1,0 +1,105 @@
+body{
+    background-color: #19456B;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Menu*/
+
+#menu{
+    z-index: 100; 
+    box-shadow: 0px 3px 4px;
+    position: fixed;
+    background-color: #11698E;
+    height: 50px;
+    width: 96%;
+    top: 1.5%;
+    left: 2%;
+    border-radius: 10px;
+}
+
+#classButtons{
+    display: inline-block;
+    box-shadow: 0px 0px 3px black;
+    transition-duration: 0.3s;
+    margin-left: 20px;
+    margin-top: 6%;
+    background-color: #F8F1F1;
+    border: none;
+    color: black;
+    border: 2px solid #19456B;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+#classButtons:hover{
+    background-color: #16C79A;
+    color: #F8F1F1;
+}
+
+#mButtonContainer{
+    float: right;
+    margin-right: 20px;
+}
+
+#WSTELogo{
+    display: inline-flex;
+    width: 160px;
+    vertical-align: middle;
+}
+
+#logo{
+    position: absolute;
+    top: 50%; left: 1%;
+    transform: translate(-1%,-50%);
+    width: 120px;
+}
+
+/*Logo / buttons + background image*/
+#backgroundImage{
+    position: relative;
+}
+
+.backgroundImage{
+    z-index: 0;
+    width: 100%;
+}
+
+#subject{
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+    width: 20%;    
+}
+
+.logoPannel{
+    width: 100%;
+}
+
+/*Subject button positions / backgrounds*/
+.subject1{
+    top: 50%; left: 5%;
+    transform: translate(-5%,-50%);
+}
+
+.subject2{
+    top: 50%; left: 35%;
+    transform: translate(-35%,-50%);
+}
+
+.subject3{
+    top: 50%; left: 65%;
+    transform: translate(-65%,-50%);
+}
+
+.subject4{
+    top: 50%; left: 95%;
+    transform: translate(-95%,-50%);
+}
+
+.subjectButton{
+    background-color: transparent;
+    border: none;
+}
