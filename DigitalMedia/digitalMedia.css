@@ -69,19 +69,36 @@ body{
 
 #subject{
     position: absolute;
-    margin: 0 auto;
+    border-radius: 14%;
     z-index: 2;
-    width: 20%;    
+    width: 20%;
 }
 
 .logoPannel{
     width: 100%;
+    border-radius: 14%;
+    box-shadow: 0 0 5px;
+    transition-duration: 0.3s;
 }
 
 /*Subject button positions / backgrounds*/
 .subject1{
     top: 50%; left: 5%;
     transform: translate(-5%,-50%);
+}
+
+#introToCodingProjects{
+    background-color: #11698E;
+    display: none;
+}
+
+.logoPannel:hover{
+    box-shadow: 0 0 15px;
+    transform: translateY(5%);
+}
+
+.logoPannel:hover + #introToCodingProjects{
+    display: contents;
 }
 
 .subject2{
