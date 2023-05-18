@@ -1,0 +1,166 @@
+body{
+    background-color: #19456B;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Menu*/
+
+#menu{
+    z-index: 100; 
+    box-shadow: 0px 3px 4px;
+    position: fixed;
+    background-color: #11698E;
+    height: 50px;
+    width: 96%;
+    top: 1.5%;
+    left: 2%;
+    border-radius: 10px;
+}
+
+#classButtons{
+    display: inline-block;
+    box-shadow: 0px 0px 3px black;
+    transition-duration: 0.3s;
+    margin-left: 20px;
+    margin-top: 6%;
+    background-color: #F8F1F1;
+    border: none;
+    color: black;
+    border: 2px solid #19456B;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+#classButtons:hover{
+    background-color: #16C79A;
+    color: #F8F1F1;
+}
+
+#mButtonContainer{
+    float: right;
+    margin-right: 20px;
+}
+
+#WSTELogo{
+    display: inline-flex;
+    width: 160px;
+    vertical-align: middle;
+}
+
+#logo{
+    position: absolute;
+    top: 50%; left: 1%;
+    transform: translate(-1%,-50%);
+    width: 120px;
+}
+
+/*Logo / buttons + background image*/
+#backgroundImage{
+    position: relative;
+}
+
+.backgroundImage{
+    z-index: 0;
+    width: 100%;
+}
+
+#subject{
+    position: absolute;
+    border-radius: 14%;
+    z-index: 2;
+    width: 20%;
+}
+
+.subjectButton{
+    background-color: transparent;
+    border: none;
+}
+
+.logoPannel{
+    width: 100%;
+    z-index: 2;
+    border-radius: 14%;
+    box-shadow: 0 0 5px;
+    transition-duration: 0.2s;
+}
+
+/*can't seem to animate the dropdown showing up, try to figure out but ok for the time being*/
+.dropdown{
+    background-color: black;
+    transform: translateY(-10%);
+    position: absolute;
+    display: none;
+    top: 120%; left: -10%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    transition-duration: 0.2s;
+    z-index: 3;
+    right: 2%;
+    width: 475%;
+    height: 50px;
+}
+
+/*Subject button positions / backgrounds / hovering animations*/
+.subject1{
+    top: 50%; left: 5%;
+    transform: translate(-5%, -50%);
+}
+
+.subject1:hover > .dropdown{
+    display: table;
+}
+
+.subject1:hover > .logoPannel{
+    box-shadow: 0 0 15px;
+    transform: translateY(20%);
+}
+
+.subject2{
+    top: 50%; left: 35%;
+    transform: translate(-35%,-50%);
+}
+
+.subject3{
+    top: 50%; left: 65%;
+    transform: translate(-65%,-50%);
+}
+
+.subject4{
+    top: 50%; left: 95%;
+    transform: translate(-95%,-50%);
+}
+
+/*Student Projects Pannels*/
+.projectPannel{
+    display: table-cell;
+    height: 100%;
+}
+
+.projectRow{
+    display: table-row;
+}
+
+.rowDivider{
+    display: flex;
+    height: 5px;
+    content: "";
+}
+
+.studentProject{
+    height: 300px;
+    text-align: center;
+    color: #F8F1F1;
+    background-color: #11698E;
+    border-radius: 10px;
+    width: 94%;
+    margin-left: 3%;
+}
+
+.studentProjectImage{
+    margin-top: 4%;
+    border-radius: 5px;
+    width: 90%;
+}

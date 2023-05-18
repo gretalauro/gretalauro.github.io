@@ -2,6 +2,8 @@ This document contains important portions of HTML, CSS, and JS
 that will be needed to develope on this website. (such as menu
 code and page structures)
 
+It's me in CTE
+
 Top menu bar HTML:
 <!--Menu-->
 <div id="menu">
