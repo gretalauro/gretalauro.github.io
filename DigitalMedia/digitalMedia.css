@@ -74,31 +74,46 @@ body{
     width: 20%;
 }
 
+.subjectButton{
+    background-color: transparent;
+    border: none;
+}
+
 .logoPannel{
     width: 100%;
     border-radius: 14%;
     box-shadow: 0 0 5px;
-    transition-duration: 0.3s;
+    transition-duration: 0.2s;
 }
 
-/*Subject button positions / backgrounds*/
+/*can't seem to animate the dropdown showing up, try to figure out but ok for the time being*/
+.dropdown{
+    background-color: black;
+    transform: translateY(-10%);
+    position: absolute;
+    display: none;
+    top: 115%; left: -10%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    transition-duration: 0.2s;
+    right: 2%;
+    width: 475%;
+    height: 50px;
+}
+
+/*Subject button positions / backgrounds / hovering animations*/
 .subject1{
     top: 50%; left: 5%;
-    transform: translate(-5%,-50%);
+    transform: translate(-5%, -50%);
 }
 
-#introToCodingProjects{
-    background-color: #11698E;
-    display: none;
+.subject1:hover > .dropdown{
+    display: table;
 }
 
-.logoPannel:hover{
+.subject1:hover > .logoPannel{
     box-shadow: 0 0 15px;
-    transform: translateY(5%);
-}
-
-.logoPannel:hover + #introToCodingProjects{
-    display: contents;
+    transform: translateY(20%);
 }
 
 .subject2{
@@ -116,7 +131,12 @@ body{
     transform: translate(-95%,-50%);
 }
 
-.subjectButton{
-    background-color: transparent;
-    border: none;
+/*Student Projects Pannels*/
+.projectPannel{
+    display: table-cell;
+    height: 100px;
+}
+
+.projectRow{
+    display: table-row;
 }
