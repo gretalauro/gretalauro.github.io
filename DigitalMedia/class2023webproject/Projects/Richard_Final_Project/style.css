@@ -1,0 +1,101 @@
+/*Menu CSS, will need to be put in css of all html pages*/
+#menu{
+    z-index: 100; 
+    box-shadow: 0px 3px 4px;
+    position: fixed;
+    background-color: #11698E;
+    height: 50px;
+    width: 96%;
+    top: 1.5%;
+    left: 2%;
+    border-radius: 10px;
+  }
+  
+  #classButtons{
+    display: inline-block;
+    box-shadow: 0px 0px 3px black;
+    transition-duration: 0.3s;
+    margin-left: 20px;
+    margin-top: 10%;
+    background-color: #F8F1F1;
+    border: none;
+    color: black;
+    border: 2px solid #19456B;
+    padding: 7px 15px;
+    border-radius: 10px;
+  }
+  
+  #classButtons:hover{
+    background-color: #16C79A;
+    color: #F8F1F1;
+  }
+  
+  #mButtonContainer{
+    float: right;
+    margin-right: 20px;
+  }
+  
+  #WSTELogo{
+    display: inline-flex;
+    width: 160px;
+    vertical-align: middle;
+  }
+  
+  #logo{
+    border: none;
+    border-radius: 0%;
+    position: absolute;
+    top: 50%; left: 1%;
+    transform: translate(-1%,-50%);
+    width: 120px;
+  }
+  /*Student CSS*/
+  
+body {
+    background-image: linear-gradient(rgb(0, 19, 187), rgb(0, 11, 49));
+}
+
+
+h2 {font-family: cursive;color:blue; background-color: rgb(73, 73, 202); border-radius: 15px; border-color:cyan; font-size:100px; text-align: center; text-shadow: 5px 10px 5px #100057;}
+
+.Red {background-color:darkblue; font-size: 25px ; color:aqua; text-align: center; text-shadow: 5px 10px 5px #100057; border-radius: 50px;font-family: cursive;}
+
+.Fact1 {font-family: cursive;font-size: 35px; color:rgb(0, 8, 119); text-align: right;border-style: dotted; border-width: 5px; border-color:rgb(0, 24, 104);
+    text-shadow: 2px 5px 5px #14006b;
+    position: relative;
+    left: 1000px;
+    width: 500px;
+    height: 500px;
+    top: 750px;
+
+
+}
+
+
+
+.Fact {font-family: cursive;font-size: 35px; color:rgb(0, 17, 255); text-align: right;border-style: dotted; border-width: 5px; border-color:rgb(0, 60, 255);
+    text-shadow: 2px 5px 5px #2400c2;
+    position: relative;
+    left: 1000px;
+    width: 500px;
+    height: 500px;
+    top:500px;
+
+}
+
+
+
+
+h1 {border-color:rgb(0, 0, 73); border-style: double;text-align: center; font-size:150px; color:rgb(0, 1, 80); text-decoration: underline; text-shadow: 5px 10px 5px #100057; font-family: cursive;}
+
+
+.attribution {color:blue; 
+    background-color: rgb(0, 0, 75); 
+    border-style: outset; 
+    border-top-color: blue; border-left-color: #00008b;
+     border-bottom-color: darkblue; border-right-color: rgb(91, 91, 255);}
+
+    img { border-radius:100px; border-color:aqua; border-style: double; position:relative;
+          }
+
+     hr {color:aquamarine; border-style: double; border-width: 25px; border-radius: 15px;}

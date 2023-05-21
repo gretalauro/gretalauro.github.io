@@ -33,7 +33,6 @@ Top menu bar HTML:
 Top menu bar CSS:
 
 /*Menu CSS, will need to be put in css of all html pages*/
-
 #menu{
     z-index: 100; 
     box-shadow: 0px 3px 4px;
@@ -51,7 +50,7 @@ Top menu bar CSS:
     box-shadow: 0px 0px 3px black;
     transition-duration: 0.3s;
     margin-left: 20px;
-    margin-top: 6%;
+    margin-top: 10%;
     background-color: #F8F1F1;
     border: none;
     color: black;

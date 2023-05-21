@@ -1,0 +1,85 @@
+/*Menu CSS, will need to be put in css of all html pages*/
+#menu{
+  z-index: 100; 
+  box-shadow: 0px 3px 4px;
+  position: fixed;
+  background-color: #11698E;
+  height: 50px;
+  width: 96%;
+  top: 1.5%;
+  left: 2%;
+  border-radius: 10px;
+}
+
+#classButtons{
+  display: inline-block;
+  box-shadow: 0px 0px 3px black;
+  transition-duration: 0.3s;
+  margin-left: 20px;
+  margin-top: 10%;
+  background-color: #F8F1F1;
+  border: none;
+  color: black;
+  border: 2px solid #19456B;
+  padding: 7px 15px;
+  border-radius: 10px;
+}
+
+#classButtons:hover{
+  background-color: #16C79A;
+  color: #F8F1F1;
+}
+
+#mButtonContainer{
+  float: right;
+  margin-right: 20px;
+}
+
+#WSTELogo{
+  display: inline-flex;
+  width: 160px;
+  vertical-align: middle;
+}
+
+#logo{
+  border: none;
+  box-shadow: none;
+  position: absolute;
+  top: 50%; left: 1%;
+  transform: translate(-1%,-50%);
+  width: 120px;
+}
+/*Student CSS*/
+
+body {
+    background-color:rgb(73, 169, 201);
+  }
+  
+  h1 { 
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px white;
+	text-decoration: underline;
+  font-size: 100px;
+  font-family: sans-serif ;
+  }
+
+  img{
+    border: 8px ridge rgb(0, 77, 121);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     box-shadow: 8px 8px 8px black;
+  }
+
+  p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+  }
+
+  li{
+    font-size: 50px;
+    text-align: center;
+  }

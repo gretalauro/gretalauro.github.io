@@ -1,0 +1,99 @@
+/*Menu CSS, will need to be put in css of all html pages*/
+#menu{
+    z-index: 100; 
+    box-shadow: 0px 3px 4px;
+    position: fixed;
+    background-color: #11698E;
+    height: 50px;
+    width: 96%;
+    top: 1.5%;
+    left: 2%;
+    border-radius: 10px;
+}
+
+#classButtons{
+    display: inline-block;
+    box-shadow: 0px 0px 3px black;
+    transition-duration: 0.3s;
+    margin-left: 20px;
+    margin-top: 10%;
+    background-color: #F8F1F1;
+    border: none;
+    color: black;
+    border: 2px solid #19456B;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+#classButtons:hover{
+    background-color: #16C79A;
+    color: #F8F1F1;
+}
+
+#mButtonContainer{
+    float: right;
+    margin-right: 20px;
+}
+
+#WSTELogo{
+    display: inline-flex;
+    width: 160px;
+    vertical-align: middle;
+}
+
+#logo{
+    position: absolute;
+    border: none;
+    top: 50%; left: 1%;
+    transform: translate(-1%,-50%);
+    width: 120px;
+}
+/*Student CSS*/
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-weight: 300px;
+    font-size: 50px;
+    text-align: center;
+    border-style: double;
+    border-width: 5px;
+}
+
+li {
+    text-indent: 160px;
+    font-size: 40px;
+    text-decoration-line: underline;
+    position: relative;
+    top: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+img {
+     width: 500px;
+     border-style:solid;
+     border-width: 2px;
+}
+h4 {
+    font-size: large;
+    font-weight: 500px;
+    text-indent: 170px;
+}
+
+p {
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   width: 20%;
+   position: relative;
+   left: 515px;
+   top: -350px;
+   border-style: solid;
+   border-width: 2px;
+}
